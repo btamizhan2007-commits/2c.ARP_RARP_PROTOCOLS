@@ -9,8 +9,8 @@ To write a python program for simulating ARP protocols using TCP.
 5. Server returns the MAC address to client.
 ## NAME: TAMIZHAN B
 ## REF NO: 212225230283
-### PROGRAM:
-ARP:
+
+### PROGRAM - ARP:
 ## Server:
 ```
 import socket
