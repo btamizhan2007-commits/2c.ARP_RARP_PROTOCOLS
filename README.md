@@ -40,6 +40,7 @@ OUPUT - ARP
 ```
 ## PROGRAM-RARP:
 ## Server
+```
 import socket
 
 s = socket.socket()
@@ -61,7 +62,9 @@ while True:
 
     except KeyError:
         c.send("Not Found".encode())
-## Cilent
+```
+## Cilent:
+```
 import socket
 
 s = socket.socket()
@@ -74,6 +77,7 @@ while True:
     
     print("Logical Address", s.recv(1024).decode())
 OUPUT -RARP
+```
 ## OUPUT -RARP
 <img width="1600" height="820" alt="image" src="https://github.com/user-attachments/assets/1bef07fb-3752-4329-84ef-f9e82f27028a" />
 <img width="1600" height="823" alt="image" src="https://github.com/user-attachments/assets/99abe713-b0d3-4e13-877f-5e9f3dad1cf3" />
